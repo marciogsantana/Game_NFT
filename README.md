@@ -19,7 +19,7 @@ sozinhos eles serão derrotados.
 ## Vilão e jogador seleciondos,
 ![Front1](https://github.com/marciogsantana/imagens/blob/main/heroi_selecionado_git.png) ![Front 2](https://github.com/marciogsantana/imagens/blob/main/vilao_git.png)
 
-## Heroi na opensea,
+## Herói na opensea,
 ![Front1](https://github.com/marciogsantana/imagens/blob/main/opensea_git.png) ![Front 2](https://github.com/marciogsantana/imagens/blob/main/opensea_level_git.png)
 
 
