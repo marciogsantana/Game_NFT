@@ -16,7 +16,7 @@ sozinhos eles serão derrotados.
 ## Selecionando o herói
 ![Blockscout](https://github.com/marciogsantana/imagens/blob/main/selecionando_heroi_git.png)  
 
-## Vilao e jogador seleciondos,
+## Vilão e jogador seleciondos,
 ![Front1](https://github.com/marciogsantana/imagens/blob/main/heroi_selecionado_git.png) ![Front 2](https://github.com/marciogsantana/imagens/blob/main/vilao_git.png)
 
 ## Heroi na opensea,
