@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Game NFT
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/marciogsantana/Game_NFT/blob/main/LICENCE) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+### Trabalhe em equipe
+O objetivo do jogo e derrotar o vilão 
+para isso os heróis terão que trabalhar em equipe
+para terem chance de vencerem, caso tentem batalhar
+sozinhos eles serão derrotados.
 
-In the project directory, you can run:
+### Conectando a carteira
+![Front1](https://github.com/marciogsantana/imagens/blob/main/Conectando_carteira_github.png) ![Front 2](https://www.picgifs.com/movies-and-series/series/dragon-ball-z/picgifs-dragon-ball-z-0089173.gif)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Selecionando o herói
+![Blockscout](https://github.com/marciogsantana/imagens/blob/main/selecionando_heroi_git.png)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Vilao e jogador seleciondos,
+![Front1](https://github.com/marciogsantana/imagens/blob/main/heroi_selecionado_git.png) ![Front 2](https://github.com/marciogsantana/imagens/blob/main/vilao_git.png)
 
-### `npm test`
+## Heroi na opensea,
+![Front1](https://github.com/marciogsantana/imagens/blob/main/opensea_git.png) ![Front 2](https://github.com/marciogsantana/imagens/blob/main/opensea_level_git.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Tecnologias utilizadas
+## Back end
+- Javascript
+- NodeJs
+- Solidity
+- Hardhat
+- Pinata
+- Alchemy
+- Redes de testes Goerli
+- Opensea teste
+## Front end
+- HTML / CSS / JS / TypeScript
+- ReactJS
+- React Native
+## Iniciar o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# clonar repositório
+git clone https://github.com/marciogsantana/Game_NFT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# alterar o arqvuivo .env
+inserir as chaves para autenticação
 
-### `npm run eject`
+# Na raiz do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# instalar dependências
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# fazer deploy do contrato na rede de testes Alfajores
+npx hardhat run scripts/deploy.js --network goerli
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# acessar pasta SRC
+# cd src
+# executar o comando abaixo
+npm start
+Acesse http://localhost:3000 para visualizar a página no browser
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Autor
 
-## Learn More
+Márcio Gomes de Santana
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.linkedin.com/in/marcio-gomes-de-santana-05347198/
