@@ -52,7 +52,7 @@ inserir as chaves para autenticação
 # instalar dependências
 npm install
 
-# fazer deploy do contrato na rede de testes Alfajores
+# fazer deploy do contrato na rede de testes Goerli
 npx hardhat run scripts/deploy.js --network goerli
 
 # acessar pasta SRC
